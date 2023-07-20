@@ -206,7 +206,7 @@ class Extension {
       //
     }
     if (shortcut == '') {
-      shortcut = '<Control><Super>Space';
+      shortcut = '<Control>Space';
     }
 
     if (!disable) {
@@ -367,7 +367,7 @@ class Extension {
     this.width =
       600 + ((this.sw * this.scaleFactor) / 2) * (this.scale_width || 0);
     this.height =
-      400 + ((this.sh * this.scaleFactor) / 2) * (this.scale_height || 0);
+      200 + ((this.sh * this.scaleFactor) / 2) * (this.scale_height || 0);
 
     // initial height
     let font_size = 14;
